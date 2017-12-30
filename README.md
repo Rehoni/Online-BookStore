@@ -1,8 +1,10 @@
 # Online-BookStore
 
+（我的vscode更新之后没有Git版本控制了！）
+
 数据库第六次作业——网上书店系统<br/>
 emmm第五次因为事多选做懒癌人皮就鸽了<br/>
-database homework_5 for online bookstore<br/>
+database homework_6 for online bookstore<br/>
 
 这里贴一个超贴心的csdn博客<br/>
 关于javaweb-intelliJ2017-maven的一个教程<br/>
