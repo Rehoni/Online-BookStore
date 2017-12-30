@@ -24,3 +24,5 @@ http://blog.csdn.net/u013754060/article/details/50885804http://blog.csdn.net/u01
 ## 开发遇到的问题
 
 1.mapper文件中 import org.apache.ibatis.annotations.Param; 在maven项目中无法导入<br/>
+    好的在maven里添加了mybatis这个包的依赖。
+    这里提供maven的包依赖查询网站：http://mvnrepository.com/
