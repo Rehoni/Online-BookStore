@@ -23,10 +23,20 @@ http://blog.csdn.net/u013754060/article/details/50885804http://blog.csdn.net/u01
 **系统部署**
 **查询性能**
 
+## mark一下
+
+1. 各个网站的跳转关联还有点问题，等全部实现应该就好了
+2. 搜索结果页面——怎么考虑设计
+3. 购物篮展示信息的时候，html里是纵向排列，是否可行，是否要改成横向排列
+4. 登陆注册的页面，找回密码之类的
+5. 帮助页面补全文字和图片
+6. contactus的页面布局有问题，额头高了
+7. aboutus，**homepage**的页面改进
+
 ## 开发遇到的问题
 
-1.mapper文件中 import org.apache.ibatis.annotations.Param; 在maven项目中无法导入<br/>
+1. mapper文件中 import org.apache.ibatis.annotations.Param; 在maven项目中无法导入<br/>
     好的在maven里添加了mybatis这个包的依赖。
     这里提供maven的包依赖查询网站：http://mvnrepository.com/
-2.vscode出现了一点问题：视图窗口只有资源管理器
+2. vscode出现了一点问题：视图窗口只有资源管理器
     解决方案：在查看中点其他视图能够看到诸如源代码管理等视图，左键这个按钮图标能保持在活动视图切换器上
