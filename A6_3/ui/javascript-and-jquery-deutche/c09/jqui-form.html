@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript &amp; jQuery - Kapitel 9: APIs - jQuery UI Form Controls</title>
+    <link rel="stylesheet" href="css/c09.css" />
+    <link rel="stylesheet" href="css/pepper-grinder/jquery-ui-1.10.3.custom.min.css" />
+  </head>
+  <body>
+    <header><h1>THE MAKER BUS</h1></header>
+    <h2>Unterkunft suchen</h2>
+    <div class="third"><img src="img/toys1.jpg" alt="Circuit boards" /></div>
+    <div class="two-thirds">
+      <form>
+        <p id="price">
+          <label for="amount">Preisbereich:</label>
+          <input type="text" id="amount" />
+        </p>
+        <div id="price-range"></div>
+        <p>
+          <label for="arrival">Anreisedatum:</label>
+          <input type="text" id="arrival" />
+        </p>
+        <input type="submit" value="Hotel finden" />
+      </form>
+    </div>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/form-init.js"></script>
+    <!-- und zusätzlich zum Buch für deutsches Datum noch -->
+    <script src="js/datepicker-de.js"></script>
+  </body>
+</html>

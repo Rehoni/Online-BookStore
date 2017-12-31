@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript &amp; jQuery - Kapitel 13: Formulare erweitern &amp validieren - Submit disabled</title>
+    <link rel="stylesheet" href="css/c13.css" />
+  </head>
+  <body>
+    <div class="container login">
+      <form id="how-heard" action="/heard" method="post">
+        <div class="one-third column">
+          <img src="img/logo.png" alt="logo" id="logo" />
+        </div>
+        <div class="two-thirds column" id="main">
+          <fieldset>
+            <legend>Wo haben Sie von uns erfahren?</legend>
+
+            <input type="radio" name="heard" value="search" id="search" />
+            <label for="search">Suchmaschine</label><br>
+
+            <input type="radio" name="heard" value="print" id="print" />
+            <label for="print">Zeitung oder Zeitschriften</label><br>
+
+            <input type="radio" name="heard" value="other" id="other" />
+            <label for="other">Sonstige</label><br>
+            <input type="text" name="other-input" id="other-text" />
+  
+            <input id="submit" type="submit" value="Abschicken" />
+          </fieldset>
+        </div><!-- .two-thirds -->
+      </form>
+    </div><!-- .container -->
+    <script src="js/utilities.js"></script>
+    <script src="js/show-option.js"></script>
+  </body>
+</html>

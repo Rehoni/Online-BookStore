@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript &amp; jQuery - Kapitel 9: APIs - jQuery UI Tabs</title>
+    <link rel="stylesheet" href="css/c09.css" />
+    <link rel="stylesheet" href="css/pepper-grinder/jquery-ui-1.10.3.custom.min.css" />
+  </head>
+  <body>
+    <header><h1>THE MAKER BUS</h1></header>
+    <h2>Preise</h2>
+    <div class="third img"><img src="img/toys1.jpg" alt="Circuit boards" /></div>
+    <div class="two-thirds">
+      <div id="prizes">
+        <ul>
+          <li><a href="#tab-1">1. Preis</a></li>
+          <li><a href="#tab-2">2. Preis</a></li>
+          <li><a href="#tab-3">3. Preis</a></li>
+        </ul>
+        <div id="tab-1">
+<p>Der erste Preis ist ein DJI Phantom - ein kleiner Allzweck-Quadcopter für Freunde der Aerofotografie. Er wird komplett konfiguriert und flugbereit geliefert. Durch das kompakte und gleichzeitig elegante Design kannst du ihn überall hin mitnehmen und in Sekundenschnelle einsatzbereit.</p>
+        </div>
+        <div id="tab-2">
+          <p>Der zweite Preis ist ein Arduino Roboter - der erste offizielle Arduino auf Rädern! Der Roboter hat zwei Prozessoren, je einer auf seinen beiden Platinen. Die Motor Platine steuert den Motor, und die Kontroll Platine empfängt die Signale von den Sensoren und entscheidet das Vorgehen. Jede der Platinen ist eine vollwertige Arduino Einheit, welche über die Arduino IDE programmiert wird.</p>
+        </div>
+        <div id="tab-3">
+<p>Der dritte Preis ist eine Bücherauswahl für motivierte Macher. Sie enthält den Bestseller <i>Makers</i> von Cory Doctorow, <i>Des Machers Entwicklungsgrundsätze: Regeln für Erfindungen in der neuen Welt von Facharbeitern, Hackern, und Bastlern</i> von Mark Hatch, und <i>Erfinde um zu Lernen: Herstellung, Basteln und Technik im Klassenzimmer</i> von Sylvia Libow Martinez.</p>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script>
+      $(function() {
+        $('#prizes').tabs();
+      });
+    </script>
+  </body>
+</html>
