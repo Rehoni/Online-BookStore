@@ -28,3 +28,5 @@ http://blog.csdn.net/u013754060/article/details/50885804http://blog.csdn.net/u01
 1.mapper文件中 import org.apache.ibatis.annotations.Param; 在maven项目中无法导入<br/>
     好的在maven里添加了mybatis这个包的依赖。
     这里提供maven的包依赖查询网站：http://mvnrepository.com/
+2.vscode出现了一点问题：视图窗口只有资源管理器
+    解决方案：在查看中点其他视图能够看到诸如源代码管理等视图，左键这个按钮图标能保持在活动视图切换器上
