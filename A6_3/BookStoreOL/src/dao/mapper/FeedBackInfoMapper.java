@@ -1,12 +1,12 @@
 package dao.mapper;
 
 
-import java.util.List;
-
 import dao.model.FeedBackInfo;
 import dao.model.FeedBackInfoExample;
 import dao.model.FeedBackInfoKey;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface FeedBackInfoMapper {
     /**

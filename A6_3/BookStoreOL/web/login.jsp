@@ -73,6 +73,7 @@
                     </div>
                 </div>
             </form>
+            <button type="submit" class="btn btn-primary">Register</button>
         </section>
 
     </div>
