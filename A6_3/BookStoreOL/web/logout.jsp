@@ -79,7 +79,7 @@
                             </div>
                             <div id="success"></div>
                             <button type="submit" class="btn btn-primary">Change info</button>
-                            <button type="submit" class="btn btn-primary">Logout here</button>
+                            <button type="submit" class="btn btn-primary" onclick="window.location.href='index.jsp'">Logout here</button>
                         </div>
                     </div>
                 </div>
