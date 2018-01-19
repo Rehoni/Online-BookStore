@@ -39,18 +39,21 @@
             <img src="img/miao.jpg" alt="Map of San Francisco"/>
             <p>
                 <b>帅气的淼淼！</b>
+                <br/>QQ:3293612954
                 <br/>phone:</p>
         </div>
         <div class="event">
             <img src="img/haohao.jpg" alt="Map of Texas"/>
             <p>
                 <b>可爱的皓皓！</b>
+                <br/>QQ:394099679
                 <br/>phone:</p>
         </div>
         <div class="event">
             <img src="img/zhuzhu.jpg" alt="Map of New York"/>
             <p>
                 <b>猪猪橙子涵！</b>
+                <br/>QQ:1289066077
                 <br/>phone:</p>
         </div>
 

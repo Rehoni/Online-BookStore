@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: 39409
-  Date: 2018/1/6
-  Time: 22:27
+  Date: 2018/1/19
+  Time: 17:44
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -10,7 +10,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Basket </title>
+    <title>Search result </title>
     <link rel="stylesheet" href="css/all.css"/>
 </head>
 <body>
@@ -19,8 +19,8 @@
     <h1>THE MAKER BUS</h1>
     <nav>
         <a href="/toIndex.form">HOME</a>
-        <a href="/toSearch.form">SEARCH</a>
-        <a href="/toBasket.form"  class="current">BASKET</a>
+        <a href="/toSearch.form" class="current">SEARCH</a>
+        <a href="/toBasket.form">BASKET</a>
         <a href="/toLogin.form">LOGIN</a>
         <a href="/toLogout.form">LOGOUT</a>
         <a href="/toHelp.form">HELP</a>
@@ -31,7 +31,7 @@
 
 <section id="content">
     <div id="container">
-        <h2>Your Books in Basket</h2>
+        <h2>Search result: </h2>
 
         <div class="third">
             <div id="event">

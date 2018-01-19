@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="css/vendor/animations.css">
     <link rel="stylesheet" href="css/vendor/font-awesome.min.css">
 
-    <link rel="stylesheet" href="css/vendor/color1.css">
+    <link rel="stylesheet" href="css/vendor/color4.css">
 </head>
 
 <body>

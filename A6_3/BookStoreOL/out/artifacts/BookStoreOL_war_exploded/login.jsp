@@ -58,22 +58,18 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Your Email *" id="email"
-                                       required="" data-validation-required-message="Please enter your email address.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" placeholder="Your Message *" id="message" required=""
-                                          data-validation-required-message="Please enter a message."></textarea>
+                                <input type="password" class="form-control" placeholder="Your Password *" id="message"
+                                       required="" data-validation-required-message="Please enter your password.">
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div id="success"></div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" class="btn btn-primary">Login</button>
+                            <button type="submit" class="btn btn-primary" onclick="window.location.href='register.jsp';">Register</button>
                         </div>
                     </div>
                 </div>
             </form>
-            <button type="submit" class="btn btn-primary">Register</button>
+
         </section>
 
     </div>

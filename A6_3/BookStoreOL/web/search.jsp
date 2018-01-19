@@ -39,7 +39,7 @@
         <div id="search">
             <form action="" method="get">
                 <input type="text" name="search_text" id="search_text" placeholder="Search Your Books">
-                <input type="button" name="search_button" id="search_button">
+                <input type="button" name="search_button" id="search_button" onclick="window.location.href='searchresult.jsp'">
             </form>
         </div>
 

@@ -5,8 +5,7 @@
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../jar library/mybatis-spring-1.3.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../jar library/mybatis-3.4.5.jar!/" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/mybatis-spring-1.3.1-sources.jar!/" />
     </SOURCES>
     <jarDirectory url="file://$PROJECT_DIR$/../jar library" recursive="false" />
   </library>

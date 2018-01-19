@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="css/vendor/animations.css">
     <link rel="stylesheet" href="css/vendor/font-awesome.min.css">
 
-    <link rel="stylesheet" href="css/vendor/color1.css">
+    <link rel="stylesheet" href="css/vendor/color3.css">
 </head>
 
 <body>
@@ -63,12 +63,23 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" placeholder="Your Message *" id="message" required=""
-                                          data-validation-required-message="Please enter a message."></textarea>
+                                <input type="tel" class="form-control" placeholder="Your Phone number *" id="phone"
+                                       required="" data-validation-required-message="Please enter your phone number.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="Your Password *" id="password"
+                                       required="" data-validation-required-message="Please enter your password.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Your Address *" id="message" required=""
+                                          data-validation-required-message="Please enter your shipping address."></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div id="success"></div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" class="btn btn-primary">Change info</button>
+                            <button type="submit" class="btn btn-primary">Logout here</button>
                         </div>
                     </div>
                 </div>

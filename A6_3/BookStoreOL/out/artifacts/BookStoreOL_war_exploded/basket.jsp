@@ -10,7 +10,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>JavaScript &amp; jQuery - Kapitel 8: Ajax &amp; JSON - Example</title>
+    <title>Basket </title>
     <link rel="stylesheet" href="css/all.css"/>
 </head>
 <body>

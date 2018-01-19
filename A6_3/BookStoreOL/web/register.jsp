@@ -2,7 +2,7 @@
   Created by IntelliJ IDEA.
   User: 39409
   Date: 2018/1/6
-  Time: 22:29
+  Time: 22:25
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -12,7 +12,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Contact Us</title>
+    <title>Login|Register</title>
     <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="css/contactus.css">
     <link rel="stylesheet" href="css/vendor/main.css">
@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="css/vendor/animations.css">
     <link rel="stylesheet" href="css/vendor/font-awesome.min.css">
 
-    <link rel="stylesheet" href="css/vendor/color4.css">
+    <link rel="stylesheet" href="css/vendor/color2.css">
 </head>
 
 <body>
@@ -35,23 +35,23 @@
     <nav>
         <a href="/toIndex.form">HOME</a>
         <a href="/toSearch.form">SEARCH</a>
-        <a href="/toBasket.form"  >BASKET</a>
-        <a href="/toLogin.form">LOGIN</a>
+        <a href="/toBasket.form">BASKET</a>
+        <a href="/toLogin.form" class="current">LOGIN</a>
         <a href="/toLogout.form">LOGOUT</a>
         <a href="/toHelp.form">HELP</a>
-        <a href="/toContact.form" class="current">CONTACT US</a>
-        <a href="/toAbout.form" >ABOUT US</a>
+        <a href="/toContact.form">CONTACT US</a>
+        <a href="/toAbout.form">ABOUT US</a>
     </nav>
 </header>
 
 <section id="content">
     <div id="container">
-        <h2>Contact Us</h2>
+        <h2>Here to Login or Register</h2>
         <section id="contact" class="location">
             <form name="sentMessage" id="contactForm" novalidate="">
                 <div class="row">
                     <div class="col-xs-12 col-md-10 col-md-offset-1">
-                        <div class="form-holder" style="padding-right: 40px;width: 800px;">
+                        <div class="form-holder" style="padding-right: 40px;width: 800px;background-color: #3fbb8a;">
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Your Name *" id="name" required=""
                                        data-validation-required-message="Please enter your name.">
@@ -63,16 +63,28 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" placeholder="Your Message *" id="message" required=""
-                                          data-validation-required-message="Please enter a message."></textarea>
+                                <input type="tel" class="form-control" placeholder="Your Phone number *" id="phone"
+                                       required="" data-validation-required-message="Please enter your phone number.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="Your Password *" id="password"
+                                       required="" data-validation-required-message="Please enter your password.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Your Address *" id="message" required=""
+                                          data-validation-required-message="Please enter your shipping address."></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div id="success"></div>
                             <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" class="btn btn-primary">Register</button>
                         </div>
                     </div>
                 </div>
             </form>
+
         </section>
 
     </div>
